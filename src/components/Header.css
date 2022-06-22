@@ -1,0 +1,317 @@
+*{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarBrand{
+ width: 200px;
+ display: flex;
+ margin-bottom: 15px;
+ 
+}
+
+
+.btn{
+    width: 115px;
+    height: 40px;
+    font-size: 15px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #acacae;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
+
+    
+}
+.btn:hover{
+    width: 115px;
+    height: 40px;
+    font-size: 15px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #acacae !important;
+    cursor: pointer;
+    border-radius: 30px;
+    display: block;
+    background-color: #fff;
+
+    
+}
+
+.vl {
+    border-left: 1px solid #acacae;
+    height: 25px;
+    width: 1px;
+    color: #E0E0E2 !important;
+    margin:7px 10px ;
+    
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin-left:20px ;
+    cursor: pointer;
+    margin-top: 5px;
+    
+}
+
+.logoShop{
+    width: 200px;
+    height: 67px;
+    padding-bottom: 18px;
+    
+  
+    
+    
+}
+
+
+
+.inputNav{
+ margin:5px 0px 0px 40px;
+ display: flex;
+ overflow: hidden;
+ background-color: #f7f7f9;
+ border: none;
+ border-radius: 30px;
+ height: 38px;
+ text-align: right;
+ border: 2px SOLID #E35300;
+}
+
+.container-navbarr{
+    background-color: #fff;
+}
+
+.navi{
+
+  flex-direction: row;
+  background-color: #828299;
+  justify-content: space-between;
+  gap: 15px;
+  display: flex;
+  
+}
+
+
+.dropdown:hover {
+  display: block;
+}
+
+.dropdownNav{
+    background-color: #fff ;
+    color: #424750d9;
+    cursor: pointer;
+    font-size: 20px;
+    width: 180px;
+    
+   
+    
+}
+
+.dropdownNav:hover{
+    background-color: #fff !important ;
+    color: #424750d9 !important;
+    cursor: pointer; 
+    width: 180px;
+    
+   
+}
+
+
+.dropdownMenu{
+    background-color: #fff ;
+    color: #424750d9;
+    cursor: pointer; 
+    width: 300px;
+    margin-top: 18px !important;
+    
+    
+}
+
+.dropdownMenu:hover{
+    background-color: #fff !important ;
+    color: #424750d9 !important;
+    cursor: pointer;
+    width: 300px;
+}
+.navbar1{
+    scroll-padding-bottom: auto;
+    z-index: 5;
+    background-color: #fff !important;
+    height:300px !important;
+   
+    
+}
+.container1{
+    background-color: #fff !important;
+    margin-bottom: -10px;
+    border-bottom: 1px solid #3d1a05;
+}
+
+.offcanves1{
+    background-color: #E35300;
+}
+
+
+
+.navbar2collapse{
+  
+   width: 900px;
+}
+.navbar2Auto{
+    
+    width: 680px;
+    margin-left: 556px;
+    padding-left: 30px;
+    
+}
+.navbar2Container{
+   
+  margin-bottom: 80px;
+   width: 1500px;
+   justify-content: right;
+   
+   
+  }
+   .navbarToggle{
+       display: none;
+   }
+
+   .tggleNav{
+       margin-bottom: 10px;
+       width: 55px;
+   }
+
+.Nav2{
+    background-color: #fff !important;
+    margin: 0;
+    position: relative;
+    position: flex;
+}
+.cantainer2{
+    background-color: #fff !important;
+    transition: 0.5s ease-in;
+    
+}
+
+.Nav3{
+ display: none;
+ 
+ 
+}
+
+.formNav3{
+    background-color: aqua;
+}
+.inputNav3{
+  background-color: ivory;
+}
+
+
+.dropdownNavbar2{
+    margin-right: 30px;
+}
+
+.inputShowModal{
+
+
+ display: flex;
+ overflow: hidden;
+ background-color: #f7f7f9 !important;
+ border: none;
+ border-radius: 30px;
+ height: 38px;
+ text-align: right;
+ border: 2px SOLID #E35300;
+ width: 250px;
+ 
+ margin-left: 99px;
+}
+
+.inputShowModal:after{
+
+
+    display: flex;
+    overflow: hidden;
+    background-color: #f7f7f9 !important;
+    border: none;
+    border-radius: 30px;
+    height: 38px;
+    text-align: right;
+    border: 2px SOLID #260e00;
+    width: 250px;
+    
+    margin-left: 99px;
+   }
+
+.textModal{
+    font-size: 15px;
+    text-shadow: 5px 5px 10px rgb(163, 160, 160);
+    color: #3d1a05;
+    margin-left: 134px;
+    background-color: #fff !important;
+    
+}
+
+.textModal2{
+    font-size: 15px;
+    text-shadow: 5px 5px 10px rgb(163, 160, 160);
+    color: #3d1a05;
+    margin-left: 190px;
+}
+
+.btnModal{
+    width: 250px;
+    background-color: #ffffff;
+    color: #5d5d5e;
+    margin-right: 120px;
+    font-size: large;
+}
+
+.btnModal:hover{
+    width: 250px;
+    background-color: #cfcece;
+    margin-right: 120px;
+    font-size: large;
+}
+
+
+
+.offcanvas2{
+    background-color: #fff;
+}
+
+   @media (max-width: 991px) {
+    .navbarToggle{
+       display: block;
+      
+    }
+
+    .inputNav{
+        display: none;
+    }
+    .logoShop{
+        display: none;
+    }
+    .Nav2{
+        display: none;
+    }
+    .Nav3{
+        display: block;
+        height: 300px;
+    }
+    
+}

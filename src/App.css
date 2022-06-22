@@ -1,0 +1,13 @@
+.text{
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin: 190px 0 0 190px;
+    font-size: 50px;
+    color: rgb(134, 128, 128);
+    text-shadow: 5px 5px 10px rgb(127, 126, 126);
+}
+
+.App{
+    height: 100%;
+}

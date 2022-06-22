@@ -1,0 +1,39 @@
+.imgteam2{
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+.first{
+    
+    position: relative;
+    animation: go-left 4s cubic-bezier(.74 , .86 , .4 , .92) forwards;
+}
+.padmin{
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-size: 50px;
+    color: rgb(134, 128, 128);
+    text-shadow: 5px 5px 10px rgb(127, 126, 126);
+}
+.second{
+ display: flex;
+}
+
+@keyframes go-left {
+    0% {
+        left: 100%;
+        width: 0%;
+    }
+    50%{
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 0;
+        width: 100%;
+    }
+}
